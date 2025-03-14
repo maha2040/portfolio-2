@@ -2,11 +2,10 @@
     background: linear-gradient(135deg, #283048, #859398);
     color: #fff;
     padding: 60px 20px;
-    height: 480px;
     display: flex;
     align-items: center;
+    height: 480px;
     justify-content: center;
-    padding-bottom: -100px;
   }
   .cont2{
     margin-left: -80px;
