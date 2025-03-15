@@ -1,24 +1,27 @@
 import React from 'react';
 import '../pages/AboutMe.css'; 
-import profilePic from "../pages/pro.png";
 
 const AboutMe = () => {
   return (
-    <div className='cont2'>
-      <section className="about-me-section">
-      
-      <div className="about-me-container">
-        <div className="profile-wrapper">
-        <img src={profilePic} alt="Raj Kumar" className="profile-pic" />
-
+    <div className="about-container">
+      <div className="about-card">
+        
+        {/* Left Section - Profile Image */}
+        <div className="about-left">
+          <div className="profile-pic-container">
+            
+          </div>
         </div>
 
-        <div className="about-details">
+        {/* Right Section - Details */}
+        <div className="about-right">
           <h2 className="about-title">About Me</h2> 
           <p className="about-description">
-            Hi, I'm MahaLakshmi! A passionate developer skilled in MERN stack, React, and more. 
+            Hi, I'm <span className="highlight">MahaLakshmi</span>! A passionate developer skilled in 
+            <span className="highlight"> MERN stack, React, and more</span>. 
             I love crafting interactive web applications with beautiful designs. 
-            My journey in tech is fueled by curiosity and creativity, always eager to learn and explore new technologies.
+            My journey in tech is fueled by <span className="highlight">curiosity and creativity</span>, 
+            always eager to learn and explore new technologies.
           </p>
           <h3 className="about-subtitle">Education & Interests</h3>
           <ul className="about-list">
@@ -29,7 +32,6 @@ const AboutMe = () => {
           </ul>
         </div>
       </div>
-    </section>
     </div>
   );
 };
