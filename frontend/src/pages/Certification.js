@@ -1,35 +1,20 @@
 import React from 'react';
 import '../pages/Certification.css'
-import img1 from '../pages/workshop.jpg'
-import img2 from '../pages/skilldezire.jpg'
-import img3 from '../pages/DevOps.png'
+import img1 from '../pages/cert-1.jpg'
+import img2 from '../pages/cert-2.jpg'
 const Certifications = () => {
     const certificates = [
       {
         image: img1,
-        title: 'React Developer Certificate',
-        description: 'Certified React Developer with hands-on experience in building dynamic and responsive web applications.',
+        title: 'Machine Learning Internship',
+        description: 'Completed Machine Learning Internship On the platform SkillDezire.',
       },
       {
         image: img2,
-        title: 'JavaScript Mastery',
-        description: 'Mastered advanced JavaScript concepts and best practices for efficient web development.',
-      },
-      {
-        image: img3,
-        title: 'Web Development Bootcamp',
-        description: 'Completed an intensive bootcamp focusing on full-stack web development with modern technologies.',
-      },
-      {
-        image: img1,
-        title: 'Web Development Bootcamp',
-        description: 'Completed an intensive bootcamp focusing on full-stack web development with modern technologies.',
-      },
-      {
-        image: img1,
-        title: 'Web Development Bootcamp',
-        description: 'Completed an intensive bootcamp focusing on full-stack web development with modern technologies.',
+        title: 'Academor Internship',
+        description: 'Completed Machine Learning Internship On the platform Academor.',
       }
+      
     ];
   
     return (

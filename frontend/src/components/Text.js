@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './text.css';
-import { FaInstagram, FaLinkedin, FaGithub, FaTwitter} from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 function Text() {
@@ -20,16 +20,10 @@ function Text() {
         I specialize in front-end design and back-end logic, creating seamless user experiences.
       </p>
       <div className="social-icons">
-        <a href='https://x.com/i/flow/login' target="_blank" rel="noopener noreferrer">
-          <FaTwitter style={{ color: '#1DA1F2', fontSize: '45px', marginRight: '50px' }} />
-        </a>
-        <a href='https://www.instagram.com/raju_official__07/?hl=en' target="_blank" rel="noopener noreferrer">
-          <FaInstagram style={{ color: '#C13584', fontSize: '45px', marginRight: '50px' }} />
-        </a>
-        <a href='https://www.linkedin.com/in/rajkumar-garika-38b451294/' target="_blank" rel="noopener noreferrer">
+        <a href='https://www.linkedin.com/in/maha-rudraboina-9a5723280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target="_blank" rel="noopener noreferrer">
           <FaLinkedin style={{ color: '#0077b5', fontSize: '45px', marginRight: '50px' }} />
         </a>
-        <a href='https://github.com/Raju-0538' target="_blank" rel="noopener noreferrer">
+        <a href='https://github.com/maha2040' target="_blank" rel="noopener noreferrer">
           <FaGithub style={{ color: '#333', fontSize: '45px' }} />
         </a>
       </div>

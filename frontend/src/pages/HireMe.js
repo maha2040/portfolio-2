@@ -20,10 +20,10 @@ const HireMe = () => {
             <p>durga.rudraboina@sasi.ac.in</p>
           </div>
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/rajkumar-garika-38b451294/" className="social-btn linkedin" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/maha-rudraboina-9a5723280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="social-btn linkedin" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="social-icon" /> LinkedIn
             </a>
-            <a href="https://github.com/Raju-0538" className="social-btn github" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/maha2040" className="social-btn github" target="_blank" rel="noopener noreferrer">
               <FaGithub className="social-icon" /> GitHub
             </a>
           </div>
