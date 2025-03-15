@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './image.css';
 import img2 from '../../src/transparent_background.png';
-
 function Image() {
     const [isVisible, setIsVisible] = useState(false);
 
